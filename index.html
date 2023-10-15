@@ -1,73 +1,122 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Restaurant landing page</title>
-    <link rel="stylesheet" href="landing.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="landing.css">
+  <title>Restaurant Navigation</title>
 </head>
 <body>
-    <!-- parent div -->
-    <div class="container" id="container">
 
-        <!-- navigation -->
-        <nav>
-            <img src="https://cdn1.iconfinder.com/data/icons/restaurant-kitchen-utensils/100/Kitchenware_33-512.png" alt="no image" class="logo">
-            <h5>Punjabi Restaurant</h5>
-         <ul>
-               <li> <a href="">Welcome</a></li>
-                <li><a href="">Restaurant</a></li>
-                <li><a href="">Menu</a></li>
-               <li> <a href="">Reservation</a></li>
-               <li> <a href="">Our location</a></li>
-         </ul>
-        </nav>
-        <center><h3>~Menu~</h3></center>
-
-        <div class="menu">
-            
-                <div class="row">
-                    <img src="./images/WhatsApp Image 2023-09-13 at 3.23.45 PM (1).jpeg" alt="no image" class="dish">
-                    <h4>~Meat Menu~</h4>
-                   <div class="meat">
-                        <h5>Bocconcini di came in mito di stagia</h5><hr>
-                        <h5>Bruschette con malale al curry</h5><hr>
-                        <h5>Uova al prasciutto</h5><hr>
-                        <h5>Vitello tomato</h5><hr>
-                        <h5>Fesca dl taochino marinata con olive</h5>
-            
-                   </div>
-                </div>
-                <div class="row">
-                    <img src="./images/WhatsApp Image 2023-09-13 at 3.23.44 PM.jpeg" alt="no image" class="dish">
-                    <h4>~Fish Menu~</h4>
-                   <div class="meat">
-                        <h5>Carpaccio di polpo</h5><hr>
-                        <h5>Cozze al verde</h5><hr>
-                        <h5>Cocktail di gamberi</h5><hr>
-                        <h5>Risotto alla crema di scampi</h5><hr>
-                        <h5>Ravioli di pesce con crema di scampi</h5>
-                   </div>
+<div class="container">
+  <nav class="navbar">
+    <div class="restaurant-name">
+      <img src="https://cdn1.iconfinder.com/data/icons/restaurant-kitchen-utensils/100/Kitchenware_33-512.png" alt="no image" class="logo">
+      <span>Punjab Restaurant</span>
+    </div>
+    <ul class="nav-list">
+      <a href="#home"><li class="nav-item">Home</li></a>
+      <a href="#menu"><li class="nav-item">Menu</li> </a>
+      <a href="#about"><li class="nav-item">About</li></a>
+      <a href="#contact"><li class="nav-item">Contact</li></a>
+      <a href="#reservation"><li class="nav-item">Reservations</li></a>
+    </ul>
+  </nav>
+  <section id="home">
+    <a class="green-box" href=""><div class="green-box">
+      
+      <p class="box-text">Tasted and Recommended as<br>Best Beef Wrap</p>
+      <img src="https://images-gmi-pmc.edge-generalmills.com/501a2739-bbf3-467a-8994-517fec045a1c.jpg" alt="Tasty Food" class="box-image">
+      <div class="decorative-element">&#9733;</div>
+    </div></a>
+  </section>
+  
+  
+  <section id="menu">
+    <center><h3><b>~Menu~</b></h3></center>
+    
+    <div class="menu">
         
-                </div>
-                <div class="row">
+            <div class="row">
+                <img src="./images/WhatsApp Image 2023-09-13 at 3.23.45 PM (1).jpeg" alt="no image" class="dish">
+                <h4><b>~Meat Menu~</b></h4>
+               <div class="meat">
+                    <a href=""><h5>Bocconcini di came in mito di stagia</h5></a><hr>
+                    <a href=""><h5>Bruschette con malale al curry</h5></a><hr>
+                    <a href=""><h5>Uova al prasciutto</h5></a><hr>
+                    <a href=""><h5>Vitello tomato</h5></a><hr>
+                    <a href=""><h5>Fesca dl taochino marinata con olive</h5></a>
         
-                    <img src="./images/WhatsApp Image 2023-09-13 at 3.23.44 PM (1).jpeg" alt="no image" class="dish">
-                    <h4>~Vegeterian Menu~</h4>
-                   <div class="meat">
-                        <h5>Parmigiana di melanzane</h5><hr>
-                        <h5>Strudel con riootta e spinaci</h5><hr>
-                        <h5>palpette di spinaci e ricotta</h5><hr>
-                        <h5>Frittata di patate al lorno</h5><hr>
-                        <h5>Spaghetti con le polpettine vegetariane</h5>
-                   </div>
-        
-            
+               </div>
+            </div>
+            <div class="row">
+                <img src="./images/WhatsApp Image 2023-09-13 at 3.23.44 PM.jpeg" alt="no image" class="dish">
+                <h4>~Fish Menu~</h4>
+               <div class="meat">
+                    <a href=""><h5>Carpaccio di polpo</h5></a><hr>
+                    <a href=""><h5>Cozze al verde</h5></a><hr>
+                    <a href=""><h5>Cocktail di gamberi</h5></a><hr>
+                    <a href=""><h5>Risotto alla crema di scampi</h5></a><hr>
+                    <a href=""><h5>Ravioli di pesce con crema di scampi</h5></a>
+               </div>
     
             </div>
-        </div>
-
-    </div>
+            <div class="row">
     
+                <img src="./images/WhatsApp Image 2023-09-13 at 3.23.44 PM (1).jpeg" alt="no image" class="dish">
+                <h4>~Vegeterian Menu~</h4>
+               <div class="meat">
+                    <a href=""><h5>Parmigiana di melanzane</h5></a><hr>
+                    <a href=""><h5>Strudel con riootta e spinaci</h5></a><hr>
+                    <a href=""><h5>palpette di spinaci e ricotta</h5></a><hr>
+                    <a href=""><h5>Frittata di patate al lorno</h5></a><hr>
+                    <a href=""><h5>Spaghetti con le polpettine vegetariane</h5></a>
+               </div>
+    
+        
+    
+        </div>
+    </div>
+  </section id="menu">
+  <section id="reservation">
+    <div class="recommended-dish">
+      <h2 class="dish-heading">Recommended Dish</h2>
+      <img src="https://t4.ftcdn.net/jpg/05/70/71/99/360_F_570719935_U2NleaoiozbuSlDQvTr7OeA3SRB9OGv5.jpg" alt="Recommended Dish" class="dish-image">
+      <h2><u>Chicken Madhooth</u></h2>
+      <p class="dish-description">
+        A delicious dish that will satisfy your taste buds. Made with the finest ingredients and served fresh.
+      </p>
+      <p class="dish-price">$25</p>
+      <a href="#" class="order-button">Order Now</a>
+    </div>
+  </section>
+ <section id="about">
+    <div class="about-section">
+      <h2 class="about-heading">About Us</h2>
+      <p class="about-description">
+        Welcome to our Punjabi restaurant, where we bring the flavors of Punjab to your table. 
+        Our mission is to offer you an authentic culinary experience filled with rich and 
+        diverse flavors that represent the heart of Punjabi cuisine.
+      </p>
+    </div>
+ </section>
+  <!-- Contact section -->
+  <section id="contact">
+    <div class="contact-section">
+      <h2 class="contact-heading">Contact Us</h2>
+      <p class="contact-info">
+        For reservations or inquiries, please feel free to contact us:
+      </p>
+      <p class="contact-info">
+        Phone: (123) 456-7890<br>
+        Email: info@restaurant.com<br>
+        Address: 123 Main Street, City
+      </p>
+      <!-- You can add a contact form here if needed -->
+    </div>
+  </section>
+</div>
+
+
 </body>
 </html>
